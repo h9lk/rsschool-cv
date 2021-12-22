@@ -5,6 +5,7 @@
 - 2. Telegram: `@hilky`, Discord: `@Hilky#3467`
 
 - 3. About:
+
 **`Goal`**: Become good front-end dev & understanding js;
 **`Pros`**: Committed, creative, responsible, ready learn new technologies and approaches, very meticulous approach to my work - conductionist;
 **`Generally`**: Learn frontend developer for 3 months, take courses at `udemy` and try to practice more in order to become not only good developer at end, but also have knowledge/experience to solve various tasks.
