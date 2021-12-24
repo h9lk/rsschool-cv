@@ -5,7 +5,6 @@
 - 2. Telegram: `@hilky`, Discord: `@Hilky#3467`
 
 - 3. About:
-
 **`Goal`**: Become good front-end dev & understanding js;
 **`Pros`**: Committed, creative, responsible, ready learn new technologies and approaches, very meticulous approach to my work - conductionist;
 **`Generally`**: Learn frontend developer for 3 months, take courses at `udemy` and try to practice more in order to become not only good developer at end, but also have knowledge/experience to solve various tasks.
@@ -21,56 +20,6 @@
   actively apply principles of `kiss` and `dry` when writing code;
 
 - 5. Code examples:
-
-```js
-document.addEventListener('DOMContentLoaded', () => {
-  const carParams = [
-    {
-      make: 'GM', model: 'Cadillac', year: 1955, color: 'tan', passengers: 5, convertible: false, mileage: 12892,
-    },
-    {
-      make: 'Chevy', model: 'Bel Air', year: 1957, color: 'red', passengers: 2, convertible: false, mileage: 1021,
-    },
-    {
-      make: 'Fiat', model: '500', year: 1957, color: 'Medium Blue', passengers: 2, convertible: false, mileage: 88000,
-    },
-    {
-      make: 'Webville Motors', model: 'Taxi', year: 1955, color: 'yellow', passengers: 4, convertible: false, mileage: 281341,
-    },
-  ];
-
-  function Car(car) {
-    this.make = car.make;
-    this.model = car.model;
-    this.year = car.year;
-    this.color = car.color;
-    this.passengers = car.passengers;
-    this.convertible = car.convertible;
-    this.mileage = car.mileage;
-    this.started = false;
-  }
-
-  Car.prototype.start = function () { this.started = true; };
-  Car.prototype.stop = function () { this.started = false; };
-  Car.prototype.drive = function () {
-    if (this.started) {
-      console.log(`${this.make} ${this.model} goes zoom zoom!`);
-    } else {
-      console.log('You need to start the engine first.');
-    }
-  };
-
-  const cars = carParams.map((car) => new Car(car));
-  cars.forEach((car) => {
-    car.start();
-    const n = Math.floor(Math.random() * 5 + 1);
-    for (let i = 0; i < n; i += 1) {
-      car.drive();
-    }
-    car.stop();
-  });
-});
-```
 
 ```js
 const chatForm = document.querySelector('.chat-form');
