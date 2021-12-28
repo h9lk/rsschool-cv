@@ -126,7 +126,7 @@ img:hover {
   height: 20px;
   margin-right: 10px;
   margin-left: 100px;
-  background-image: url("../img/telegram.png");
+  background-image: url("../img/telegram.webp");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -218,7 +218,7 @@ img:hover {
   display: none;
   width: 40px;
   height: 40px;
-  background-image: url("../img/toTop.png");
+  background-image: url("../img/toTop.webp");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -248,8 +248,12 @@ img:hover {
   border-radius: 50%;
 }
 
-.rsschool {
-  border-radius: 10px;
+.github:hover {
+  fill: var(--glacier);
+}
+
+.rsschool:hover {
+  fill: var(--buddha-gold);
 }
 
 @media screen and (max-width: 480px) {
