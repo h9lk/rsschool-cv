@@ -1,0 +1,28 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "https://h9lk.github.io/rsschool-cv/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h9lk/rsschool-cv.git"
+  },
+  "author": "h9lk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h9lk/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/h9lk/rsschool-cv#readme",
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "linthtml-config-htmlacademy": "^1.0.3",
+    "stylelint": "13.13.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "22.0.0"
+  }
+}
