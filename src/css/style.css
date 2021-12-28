@@ -1,0 +1,260 @@
+:root {
+  --tall-poppy: #b72a2a;
+  --governor-bay: #26399c;
+  --mine-shaft: #333;
+  --buddha-gold: #c3b509;
+  --athens-gray: #f9f9fb;
+  --banana-mania: #fbe8b7;
+  --dodger-blue: #36f;
+  --cod-gray: #0f0f0f;
+  --london-hue: #b294bb;
+  --di-serria: #de935f;
+  --glacier: #89b6c5;
+  --gimblet: #b5bd68;
+  --japonica: #dc7069;
+  --nepal: #81a2be;
+  --code: rgba(0, 0, 0, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--athens-gray);
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-image: url("../img/background.webp");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+a {
+  color: var(--buddha-gold);
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--mine-shaft);
+}
+
+b {
+  text-decoration: underline 2px var(--tall-poppy);
+}
+
+img:hover {
+  box-shadow: 0 0 24px 1px var(--cod-gray);
+}
+
+/*
+  * Header
+*/
+
+.nav-list__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dodger-blue);
+}
+
+.nav-inner__link,
+.coursers-inner__link {
+  color: white;
+  line-height: 50px;
+}
+
+/*
+  * Main
+*/
+.page-main,
+.about,
+.courses,
+#contact,
+#works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about,
+#plus,
+#skills,
+#experience,
+#education,
+#contact {
+  width: 40%;
+}
+
+.avatar {
+  margin-bottom: 5px;
+  border-radius: 100px;
+  box-shadow: 0 0 0 2px var(--governor-bay), 0 0 15px var(--mine-shaft);
+}
+
+.title {
+  color: var(--mine-shaft);
+  text-align: center;
+}
+
+.quote {
+  color: var(--banana-mania);
+  font-weight: bold;
+}
+
+.telegram {
+  display: flex;
+  padding: 0;
+}
+
+.telegram::before {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 100px;
+  background-image: url("../img/telegram.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  border: 2px solid var(--athens-gray);
+  border-radius: 50%;
+  content: "";
+}
+
+#plus,
+.courses {
+  padding: 0;
+}
+
+.courses {
+  white-space: nowrap;
+}
+
+.works-inner__link {
+  margin-bottom: 20px;
+}
+
+#contact,
+.courses,
+.nav-list__inner,
+.skills-inner {
+  list-style-type: none;
+}
+
+#examples {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.list-numeric {
+  padding-left: 50px;
+}
+
+.skills-inner {
+  padding-left: 0;
+}
+
+.info {
+  text-align: center;
+}
+
+/*
+ * JScode
+*/
+.javascript {
+  padding: 10px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  background-color: var(--code);
+}
+
+.directive {
+  color: var(--london-hue);
+  font-weight: bold;
+}
+
+.parameters {
+  color: var(--di-serria);
+}
+
+.variables {
+  color: var(--glacier);
+}
+
+.signs {
+  color: var(--gimblet);
+}
+
+.bool {
+  color: var(--japonica);
+}
+
+.methods {
+  color: var(--nepal);
+}
+
+/*
+  * Elements
+*/
+.to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/toTop.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  border: 2px solid var(--athens-gray);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.to-top:hover {
+  box-shadow: 0 0 24px 1px var(--cod-gray);
+}
+
+/*
+  * Footer
+*/
+.page-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--dodger-blue);
+}
+
+.github {
+  margin-right: 5px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+
+.rsschool {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-list__inner {
+    flex-flow: column;
+    height: 300px;
+  }
+}
