@@ -10,12 +10,9 @@
   <title>cv</title>
   <link rel="shortcut icon" href="./assets/favicon.ico">
   <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-  <link rel="icon" type="image/icon" sizes="16x16" href="./assets/favicon-16x16.png">
-  <link rel="icon" type="image/icon" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="manifest" href="./manifest.webmanifest">
   <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
   <header class="page-header">
     <nav class="header-nav">
@@ -45,13 +42,25 @@
         Join me in this rewarding journey!
       </p>
       <p class="quote">"Failed vncproxy never changes"</p>
-      <p class="plus">
-        <b>Goal</b> : Become good front-end dev & understanding js; <br>
-        <b>Pros</b> : Committed, creative, responsible, ready learn new technologies and approaches, very meticulous
-        approach to my work - conductionist;
-      </p>
     </section>
-
+    <section id="plus">
+      <h2 class="title">Pluses:</h2>
+      <b>Goal</b> : Become good front-end dev & understanding js; <br>
+      <b>Pros</b> : Committed, creative, responsible, ready learn new technologies and approaches, very meticulous
+        approach to my work - conductionist; <br>
+      <b>Courses</b> :
+        <ul class="courses">
+          <li class="coursers-inner">
+            <a href="https://htmlacademy.ru/profile/h9lk" class="coursers-inner__link">Html academy</a>
+          </li>
+          <li class="coursers-inner">
+            <a href="https://www.sololearn.com/profile/3814883" class="coursers-inner__link">Sololearn</a>
+          </li>
+          <li class="coursers-inner">
+            <a href="https://gb.ru/users/2115823" class="coursers-inner__link">GeekBrains</a>
+          </li>
+        </ul>
+    </section>
     <section class="contacts">
       <h2 class="title">Contacts:</h2>
       <ul id="contact">
@@ -64,10 +73,10 @@
     <section id="works">
       <h2 class="title">My works:</h2>
         <a href="https://codepen.io/h9lk/pen/WNEgXjb" class="works-inner__link">
-          <img src="./img/slider.png" alt="Custom Slider" width="165" height="299">
+          <img src="./img/slider.webp" alt="Custom Slider" width="165" height="299">
         </a>
         <a href="https://codepen.io/h9lk/pen/abLJKPg" class="works-inner__link">
-          <img src="./img/todo.png" alt="ToDo list" width="320" height="160">
+          <img src="./img/todo.webp" alt="ToDo list" width="320" height="160">
         </a>
     </section>
 
@@ -126,16 +135,16 @@
 
     <section id="english">
       <h2 class="title">English</h2>
-      <p>B1 - Pre-Intermediate</p>
+      <p class="info">B1 - Pre-Intermediate</p>
     </section>
   </main>
   <footer class="page-footer">
     <h3>&copy; 2021</h3>
     <a href="https://github.com/h9lk">
-      <img src="./img/github.png" alt="GitHub" width="40" height="40">
+      <img src="./img/github.png" alt="GitHub" class="github" width="40" height="40">
     </a>
     <a href="https://rs.school/js/">
-      <img src="./img/rs_school_js.svg" alt="rsschool" width="120" height="60">
+      <img src="./img/rs_school_js.svg" alt="RSSchool" class="rsschool" width="120" height="60">
     </a>
   </footer>
   <script src="./js/script.js"></script>
